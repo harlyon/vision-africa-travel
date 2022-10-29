@@ -15,7 +15,7 @@ class VideoV2 extends Component {
 			        <div className="section-title text-center viaje-go-top">
 			          <h2 className="title">What Do You Know <br /> About US</h2>
 			          <p>Vivamus eget aliquam dui. Integer eu arcu vel arcu suscipit ultrices quis non mauris. Aenean scelerisque, sem eu dictum commodo, velit nisi</p>
-			          <Link className="btn btn-yellow" to="/about"><span>Read More<i className="la la-arrow-right" /></span></Link>
+			          <Link className="btn btn-yellow" to="/#"><span>Read More<i className="la la-arrow-right" /></span></Link>
 			        </div>
 			      </div>
 			      <div className="col-xl-8 col-lg-9 text-center">
