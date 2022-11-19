@@ -16,19 +16,26 @@ class GolfDetails extends Component {
                   <div className="destinations-details-main-slider">
                     <div className="d-details-main-slider-item">
                       <img
-                        src={publicUrl + "assets/img/others/3.png"}
+                        src={
+                          "https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2016/03/15/56e82f36c750880b76a249f2_tour-operators-Carr-Golf.jpg"
+                        }
                         alt="img"
                       />
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        src={publicUrl + "assets/img/others/2.png"}
+                        src={
+                          "https://www.exploremoretravel.com/wp-content/uploads/2019/09/Leopard-Creek-1-2000x1040.jpg"
+                        }
                         alt="img"
                       />
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        src={publicUrl + "assets/img/others/4.png"}
+                        width="100%"
+                        src={
+                          "https://image-prod.iol.co.za/16x9/800/JOHANNESBURG-SOUTH-AFRICA-NOVEMBER-20-Dylan-Naidoo-during-day-2-of-the-2020-Joburg-Open-at-Randpark-Golf-Club-on-November-20-2020-in-Johannesburg-South-Africa-Picture-credit-Carl-Fourie-Sunshine-Tour?source=https://xlibris.public.prod.oc.inl.infomaker.io:8443/opencontent/objects/b8a94894-8995-5b28-9e9f-3f7ad0bef8b5&operation=CROP&offset=0x655&resize=6463x3638"
+                        }
                         alt="img"
                       />
                     </div>
@@ -59,34 +66,25 @@ class GolfDetails extends Component {
             {/* destinations-details-main-slider End */}
             <div className="row destinations-details-location-name">
               <div className="col-lg-12">
-                <h3>Africa</h3>
-                <p>Continen</p>
+                <h3>Golf Tour</h3>
               </div>
               <div className="col-lg-6">
                 <p>
-                  Africa is the world's second largest and second most-populous
-                  continent. At about 30.3 million km² including djacent
-                  islands, it covers 6% of Earth's total surface area and 20% of
-                  its land area. With 1.2 billion people as of 2016, it accounts
-                  for about 16% of the world's human population
+                  South Africa is brimming with talented golfers. Vision Africa
+                  Tour gives the opportunity to play on championship golf
+                  courses under professional conditions more often. We care
+                  about how much you will enjoy the event. Ultimately, this is a
+                  tour for you, the players
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  It accounts for about 16% of the world's human population. The
-                  continent is surrounded by the Mediterranean Sea to the Africa
-                  is the world's second largest and second most-populous
-                  continent. At about 30.3 million km² including djacent
-                  islands.
+                  Vision Africa tour perfect golfing trip when you are visiting
+                  South Africa during the cooler winter months when temperatures
+                  are mild, no chance of rain and winter islands.
                 </p>
               </div>
             </div>
-            {/* destinations-client-review-slider start */}
-
-            {/* trip-plan End */}
-
-            {/* location-details end */}
-            {/* location-review-area start */}
           </div>
         </div>
       </div>

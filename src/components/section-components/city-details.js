@@ -16,23 +16,40 @@ class GolfDetails extends Component {
                   <div className="destinations-details-main-slider">
                     <div className="d-details-main-slider-item">
                       <img
-                        src={"https://saltycrax.com/wp-content/uploads/2020/09/City-Sightseeing-Red-Bus-Tour-Cape-Town.jpg"}
+                        src={
+                          "https://saltycrax.com/wp-content/uploads/2020/09/City-Sightseeing-Red-Bus-Tour-Cape-Town.jpg"
+                        }
                         alt="img"
                         style={{
-                            width: "100%",
-                            // height: "750px",
+                          width: "100%",
+                          // height: "750px",
                         }}
                       />
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        src={"https://www.mainstreetwalks.co.za/wp-content/uploads/2019/08/Innercity-1_v2.jpg"}
+                        src={
+                          "https://www.mainstreetwalks.co.za/wp-content/uploads/2019/08/Innercity-1_v2.jpg"
+                        }
                         alt="img"
                       />
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        src={"https://www.traveledgeindia.com/assets/uploads/2018/04/Johannesburg.jpg"}
+                        src={
+                          "https://www.traveledgeindia.com/assets/uploads/2018/04/Johannesburg.jpg"
+                        }
+                        alt="img"
+                      />
+                    </div>
+                    <div className="d-details-main-slider-item">
+                      <img
+                        style={{
+                            width: "100%",
+                        }}
+                        src={
+                          "https://s3.amazonaws.com/images.wealthyaffiliate.com/uploads/1364196/sitecontent/1d27285876647650b27a33ab747ea265_cropped.jpg?1611963199"
+                        }
                         alt="img"
                       />
                     </div>
@@ -63,34 +80,28 @@ class GolfDetails extends Component {
             {/* destinations-details-main-slider End */}
             <div className="row destinations-details-location-name">
               <div className="col-lg-12">
-                <h3>Africa</h3>
-                <p>Continen</p>
+                <h3>City Tour</h3>
               </div>
               <div className="col-lg-6">
                 <p>
-                  Africa is the world's second largest and second most-populous
-                  continent. At about 30.3 million km² including djacent
-                  islands, it covers 6% of Earth's total surface area and 20% of
-                  its land area. With 1.2 billion people as of 2016, it accounts
-                  for about 16% of the world's human population
+                  South Africa has impressive cultural heritage. In different
+                  regions of the country, visitors will be able to experience
+                  different customs, traditions, and musical styles that are
+                  unique to each place. We sure have an incredible destination
+                  just waiting for you
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  It accounts for about 16% of the world's human population. The
-                  continent is surrounded by the Mediterranean Sea to the Africa
-                  is the world's second largest and second most-populous
-                  continent. At about 30.3 million km² including djacent
-                  islands.
+                  Johannesburg is a vibrant city that has a lot to offer
+                  visitors, from historic sights of political importance,
+                  traditional ties or cultural connections, to museums, art
+                  galleries and craft markets. Whether you want to discover
+                  South Africa’s traditional roots, diverse cultures or explore
+                  the lively spirit of the city and surroundings, Vision Africa is on hand to assist you with planning.
                 </p>
               </div>
             </div>
-            {/* destinations-client-review-slider start */}
-
-            {/* trip-plan End */}
-
-            {/* location-details end */}
-            {/* location-review-area start */}
           </div>
         </div>
       </div>
