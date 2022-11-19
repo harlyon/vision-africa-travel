@@ -50,9 +50,10 @@ class Footer_v2 extends Component {
                   />
                 </Link>
                 <p>
-                  Cras gravida bibendum dolor eu varius. Morbi fermentum velit
-                  nisl, eget vehicula lorem sodales eget. Donec quis volutpat
-                  orci.
+                  We offer exceptional value without compromising on quality. On our
+                  tours, you can see more sights, have more local experiences,
+                  and enjoy more delicious, authentic meals—all while staying in
+                  high quality, boutique hotels and charming, family-run inns.
                 </p>
               </div>
             </div>
@@ -63,17 +64,15 @@ class Footer_v2 extends Component {
                 <div className="widget-contact d-inline-flex">
                   <p className="telephone text-left">
                     <i className="fa fa-phone base-color" />
-                    <span>+088 012121240</span>
+                    <span>(+27) 10 822 7588</span>
                   </p>
                   <p className="location text-left">
                     <i className="fa fa-envelope-o" />
-                    <span>email@gmail.com</span>
+                    <span>info@visiontravel.co.za</span>
                   </p>
                   <p className="text-left">
                     <i className="fa fa-map-marker" />
-                    <span>
-                      Lavaca Street, Suite 2000
-                    </span>
+                    <span>7 Stirrup Lane,Woodmead Office Park<br />Sandton 2191. Johannesburg</span>
                   </p>
                 </div>
               </div>
@@ -111,29 +110,17 @@ class Footer_v2 extends Component {
               <div className="col-lg-4 col-md-3">
                 <ul className="social-icon float-lg-right">
                   <li>
-                    <a
-                      className="facebook"
-                      href="/#"
-                      target="_blank"
-                    >
+                    <a className="facebook" href="/#" target="_blank">
                       <i className="fa fa-facebook  " />
                     </a>
                   </li>
                   <li>
-                    <a
-                      className="twitter"
-                      href="/#"
-                      target="_blank"
-                    >
+                    <a className="twitter" href="/#" target="_blank">
                       <i className="fa fa-twitter  " />
                     </a>
                   </li>
                   <li>
-                    <a
-                      className="pinterest"
-                      href="/#"
-                      target="_blank"
-                    >
+                    <a className="pinterest" href="/#" target="_blank">
                       <i className="fa fa-instagram" />
                     </a>
                   </li>

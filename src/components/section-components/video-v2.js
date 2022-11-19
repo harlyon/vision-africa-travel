@@ -13,8 +13,10 @@ class VideoV2 extends Component {
 			    <div className="row justify-content-center">
 			      <div className="col-xl-6 col-lg-10 text-center">
 			        <div className="section-title text-center viaje-go-top">
-			          <h2 className="title">What Do You Know <br /> About US</h2>
-			          <p>Vivamus eget aliquam dui. Integer eu arcu vel arcu suscipit ultrices quis non mauris. Aenean scelerisque, sem eu dictum commodo, velit nisi</p>
+			          <h2 className="title">What makes us <br /> Unique</h2>
+			          <p>
+					  We give you the opportunity to experience a destination with the help of a local, bilingual leader who is passionate about sharing their home with you. You’ll eat in local restaurants, stay in accommodations that have been family-owned for generations
+					  </p>
 			          <Link className="btn btn-yellow" to="/#"><span>Read More<i className="la la-arrow-right" /></span></Link>
 			        </div>
 			      </div>
