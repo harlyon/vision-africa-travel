@@ -30,20 +30,24 @@ class About extends Component {
             </div>
             <div className="col-lg-5 offset-lg-2">
               <div className="thumb about-section-right-thumb">
-                <img src={publicUrl + "assets/img/others/girrafe.jpeg"} alt="img" />
+                <img
+                  src={publicUrl + "assets/img/others/girrafe.jpeg"}
+                  alt="img"
+                />
                 <img
                   className="about-absolute-thumb"
                   src={publicUrl + "assets/img/others/elephant.jpeg"}
                   style={{
                     width: "357px",
                     height: "417px",
-                   }}
+                  }}
                   alt="img"
                 />
               </div>
             </div>
           </div>
         </div>
+        <div></div>
       </div>
     );
   }

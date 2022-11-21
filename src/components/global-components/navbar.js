@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="nav-right-content">
             <ul className="pl-0">
               <li className="top-bar-btn-booking">
-                <Link className="btn btn-yellow" to="/#">
+                <Link className="btn btn-yellow" to="/login">
                   VIP Entrance <i className="fa fa-paper-plane" />
                 </Link>
               </li>
@@ -45,14 +45,6 @@ const Navbar = () => {
                     <option value={3}>Chinese</option>
                   </select>
                 </div>
-              </li>
-              <li className="search">
-                <i className="ti-search" />
-              </li>
-              <li className="notification">
-                <a className="signUp-btn" href="#">
-                  <i className="fa fa-user-o" />
-                </a>
               </li>
             </ul>
           </div>
@@ -104,7 +96,7 @@ const Navbar = () => {
         <div className="nav-right-content">
           <ul>
             <li>
-              <Link className="btn btn-yellow" to="/#">
+              <Link className="btn btn-yellow" to="/login">
                 VIP Entrance <i className="fa fa-paper-plane" />
               </Link>
             </li>
@@ -116,9 +108,6 @@ const Navbar = () => {
                 </select>
               </div>
             </li>
-            {/* <li className="search">
-              <i className="ti-search" />
-            </li> */}
           </ul>
         </div>
       </div>

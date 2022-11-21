@@ -25,6 +25,7 @@ import BlogV3 from './components/blog-v3';
 import BlogDetails from './components/blog-details';
 import GolfTourPage from './components/section-components/golf-tour';
 import CityTourPage from './components/section-components/city-tour';
+import loginPage from './components/section-components/login';
 
 
 
@@ -58,6 +59,7 @@ class Root extends Component {
 	                    <Route path="/blog-details" component={BlogDetails} />
 						<Route path="/golf-tour" component={GolfTourPage} />
 						<Route path="/city-tour" component={CityTourPage} />
+						<Route path="/login" component={loginPage} />
 	                </Switch>
 	                </div>
                 </Router>
