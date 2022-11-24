@@ -63,7 +63,7 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/">Vision of Difference</Link>
+              <Link to="/vision">Vision of Difference</Link>
             </li>
             <li>
               <Link to="/about">About Us</Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
                   <Link to="/city-tour">City Tour</Link>
                 </li>
                 <li>
-                  <Link to="/#">Safari</Link>
+                  <Link to="/safari-tour">Safari</Link>
                 </li>
                 <li>
                   <Link to="/#">Fishing</Link>
