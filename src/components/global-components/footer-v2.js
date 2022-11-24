@@ -59,7 +59,7 @@ class Footer_v2 extends Component {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-xl-7">
+            <div className="col-xl-12 col-lg-12">
               <div className="footer-widget widget text-center">
                 <div className="widget-contact d-inline-flex">
                   <p className="telephone text-left">
