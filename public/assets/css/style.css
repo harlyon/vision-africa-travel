@@ -1,8 +1,8 @@
 /*
 Theme Name: Travel Point
-Theme URI: 
+Theme URI:
 Author: codingeek
-Author URI: 
+Author URI:
 Description: Travel Point - Travel, Tour Booking HTML5 Template
 Version: 1.0.0
 */
@@ -1248,7 +1248,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-color: #444; }
 
 /*---------------------
-    ## Breadcumb 
+    ## Breadcumb
 ----------------------*/
 .breadcrumb-area {
   text-align: center;
@@ -2080,7 +2080,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     -webkit-transform: scale(1); } }
 
 /*----------------------------------------------
-    # Nav bar 
+    # Nav bar
 ----------------------------------------------*/
 .tp-lang-wrap {
   display: -webkit-box;
@@ -5340,9 +5340,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   position: relative; }
 
 .destinations-details-main-slider {
-  -webkit-box-shadow: 0px 0px 45px #071C5517;
+  /* -webkit-box-shadow: 0px 0px 45px #071C5517;
   -moz-box-shadow: 0px 0px 45px #071C5517;
-  box-shadow: 0px 0px 45px #071C5517;
+  box-shadow: 0px 0px 45px #071C5517; */
   border-radius: 23px; }
   .destinations-details-main-slider .d-details-main-slider-item img {
     border-radius: 23px; }

@@ -13,7 +13,7 @@ class VideoV2 extends Component {
 			    <div className="row justify-content-center">
 			      <div className="col-xl-6 col-lg-10 text-center">
 			        <div className="section-title text-center viaje-go-top">
-			          <h2 className="title">What makes us <br /> Unique</h2>
+			          <h2 className="title">What makes us special</h2>
 			          <p>
 					  We give you the opportunity to experience a destination with the help of a local, bilingual leader who is passionate about sharing their home with you. You’ll eat in local restaurants, stay in accommodations that have been family-owned for generations
 					  </p>
@@ -23,7 +23,7 @@ class VideoV2 extends Component {
 			      <div className="col-xl-8 col-lg-9 text-center">
 			        <div className="video-popup-wrap style-two">
 			          <div className="thumb">
-			            <img src="https://images.ctfassets.net/wds1hqrprqxb/1I9U5c4DoC1wA7Kpjyqc3l/b834c02f6eafc7484bcf3f1825caf980/intro-img.jpg?w=930&h=1000&q=95&fm=webp" alt="video" />
+			            <img src={publicUrl + "assets/img/home.jpeg"} alt="video" />
 			          </div>
 			          <div className="video-popup-btn">
 			            <a href="https://www.youtube.com/watch?v=SC7RoYf9JhM" className="video-play-btn mfp-iframe"><i className="fa fa-play" /></a>

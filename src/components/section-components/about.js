@@ -11,8 +11,8 @@ class About extends Component {
       <div className="about-section pd-top-80">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 align-self-center">
-              <div className="section-title mb-lg-0">
+            <div className="col-xl-5 col-lg-6 align-self-center">
+              <div className="section-title mb-lg-0 mb-4 text-center text-lg-left">
                 <h2 className="title">
                   Your Next Adventure <br /> Is a Click Away
                 </h2>
@@ -28,13 +28,16 @@ class About extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-lg-5 offset-lg-2">
-              <div className="thumb about-section-right-thumb">
-                <img
+            <div className="col-lg-6 col-xl-5 offset-lg-2">
+              <div className="thumb">
+
+                  <img src={publicUrl + "assets/img/about-img.webp"} alt="img" />
+
+                {/* <img
                   src={publicUrl + "assets/img/others/girrafe.jpeg"}
                   alt="img"
-                />
-                <img
+                /> */}
+                {/* <img
                   className="about-absolute-thumb"
                   src={publicUrl + "assets/img/others/elephant.jpeg"}
                   style={{
@@ -42,7 +45,7 @@ class About extends Component {
                     height: "417px",
                   }}
                   alt="img"
-                />
+                /> */}
               </div>
             </div>
           </div>

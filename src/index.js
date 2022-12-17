@@ -59,11 +59,11 @@ class Root extends Component {
 	                    <Route path="/blog-v2" component={BlogV2} />
 	                    <Route path="/blog-v3" component={BlogV3} />
 	                    <Route path="/blog-details" component={BlogDetails} />
-						<Route path="/golf-tour" component={GolfTourPage} />
-						<Route path="/city-tour" component={CityTourPage} />
-						<Route path="/safari-tour" component={SafariTourPage} />
-						<Route path="/login" component={loginPage} />
-						<Route path="/vision" component={Vision} />
+											<Route path="/golf-tour" component={GolfTourPage} />
+											<Route path="/city-tour" component={CityTourPage} />
+											<Route path="/safari-tour" component={SafariTourPage} />
+											<Route path="/login" component={loginPage} />
+											<Route path="/vision" component={Vision} />
 	                </Switch>
 	                </div>
                 </Router>
