@@ -49,12 +49,12 @@ class Footer_v2 extends Component {
                     alt="footerlogo"
                   />
                 </Link>
-                <p>
+                {/* <p>
                   We offer exceptional value without compromising on quality. On our
                   tours, you can see more sights, have more local experiences,
                   and enjoy more delicious, authentic meals—all while staying in
                   high quality, boutique hotels and charming, family-run inns.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ class Footer_v2 extends Component {
             <div className="row">
               <div className="col-lg-8 col-md-9">
                 <div className="copyright-text text-left">
-                  © Vision Africa 2022 All rights reserved. Powered with by{" "}
+                  © Vision Africa 2022 All rights reserved. Powered by{" "}
                   <a href="/#" target="_blank">
                     <i className="fa fa-heart" />
                     <span>Vision Africa.</span>

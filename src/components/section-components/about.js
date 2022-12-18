@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import parse from "html-react-parser";
 
 class About extends Component {
   render() {
     let publicUrl = process.env.PUBLIC_URL + "/";
-    let imagealt = "image";
 
     return (
       <div className="about-section pd-top-80">
@@ -30,22 +27,7 @@ class About extends Component {
             </div>
             <div className="col-lg-6 col-xl-5 offset-lg-2">
               <div className="thumb">
-
                   <img src={publicUrl + "assets/img/about-img.webp"} alt="img" />
-
-                {/* <img
-                  src={publicUrl + "assets/img/others/girrafe.jpeg"}
-                  alt="img"
-                /> */}
-                {/* <img
-                  className="about-absolute-thumb"
-                  src={publicUrl + "assets/img/others/elephant.jpeg"}
-                  style={{
-                    width: "357px",
-                    height: "417px",
-                  }}
-                  alt="img"
-                /> */}
               </div>
             </div>
           </div>

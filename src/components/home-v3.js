@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './global-components/navbar';
-import Banner from './section-components/banner-v2';
+// import Banner from './section-components/banner-v2';
+import Banner from './section-components/banner';
 import Search from './section-components/search-v2';
 import UpcomingWorld from './section-components/upcoming-world';
 import Intro from './section-components/intro-v2';

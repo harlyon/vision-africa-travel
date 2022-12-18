@@ -65,9 +65,6 @@ const Navbar = () => {
             <li>
               <Link to="/vision">Vision of Difference</Link>
             </li>
-            <li>
-              <Link to="/about">About Us</Link>
-            </li>
             <li className="menu-item-has-children">
               <a href="#">Activities</a>
               <ul className="sub-menu">
@@ -87,6 +84,9 @@ const Navbar = () => {
                   <Link to="/#">Diving</Link>
                 </li>
               </ul>
+            </li>
+            <li>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
