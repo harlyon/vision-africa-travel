@@ -35,7 +35,7 @@ class VideoV2 extends Component {
                 </div>
                 <div className="video-popup-btn">
                   <a
-                    href="https://www.youtube.com/watch?v=SC7RoYf9JhM"
+                    href={publicUrl + "assets/video/kruger-park.mp4"}
                     className="video-play-btn mfp-iframe"
                   >
                     <i className="fa fa-play" />
