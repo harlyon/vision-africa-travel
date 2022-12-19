@@ -72,7 +72,11 @@ class Footer_v2 extends Component {
                   </p>
                   <p className="text-left">
                     <i className="fa fa-map-marker" />
-                    <span>7 Stirrup Lane,Woodmead Office Park<br />Sandton 2191. Johannesburg</span>
+                    <span>
+                      7 Stirrup Lane,Woodmead Office Park
+                      <br />
+                      Sandton 2191. Johannesburg
+                    </span>
                   </p>
                 </div>
               </div>

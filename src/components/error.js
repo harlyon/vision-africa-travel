@@ -1,11 +1,12 @@
-import React from 'react';
-import Errorpage from './section-components/error';
+import React from "react";
+import Errorpage from "./section-components/error";
 
 const Error = () => {
-    return <div>
-        <Errorpage />
+  return (
+    <div>
+      <Errorpage />
     </div>
-}
+  );
+};
 
-export default Error
-
+export default Error;

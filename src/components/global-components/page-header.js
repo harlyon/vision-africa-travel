@@ -8,7 +8,8 @@ class Page_header extends Component {
       <div
         className="breadcrumb-area jarallax"
         style={{
-          backgroundImage: "url(https://www.pollmans.com/wp-content/uploads/2019/02/home-hero.jpg)",
+          backgroundImage:
+            "url(https://www.pollmans.com/wp-content/uploads/2019/02/home-hero.jpg)",
         }}
       >
         <div className="container">

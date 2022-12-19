@@ -24,7 +24,10 @@ class Contact extends Component {
             <div className="row">
               <div className="col-xl-5 offset-xl-1 col-lg-6">
                 <div className="thumb">
-                  <img src={publicUrl + "assets/img/others/contact.jpg"} alt="img" />
+                  <img
+                    src={publicUrl + "assets/img/others/contact.jpg"}
+                    alt="img"
+                  />
                 </div>
               </div>
               <div className="col-xl-5 col-lg-6">
@@ -80,7 +83,11 @@ class Contact extends Component {
                 <div className="contact-info bg-gray">
                   <p>
                     <i className="fa fa-map-marker" />
-                    <span>7 Stirrup Lane,Woodmead Office Park<br />Sandton 2191. Johannesburg</span>
+                    <span>
+                      7 Stirrup Lane,Woodmead Office Park
+                      <br />
+                      Sandton 2191. Johannesburg
+                    </span>
                   </p>
                   <p>
                     <i className="fa fa-clock-o" />
