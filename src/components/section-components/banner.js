@@ -4,7 +4,7 @@ class Banner extends Component {
 
 	render() {
 
-		return <div className="banner-area viaje-go-top">
+		return <div><div className="banner-area viaje-go-top">
 			<div className="banner-slider">
 				<div className="banner-slider-item banner-bg-1">
 					<div className="container">
@@ -119,9 +119,8 @@ class Banner extends Component {
 										<div className="row">
 											<div className="col-sm-4 s-animate-3">
 												<div className="tp-price-meta">
-													h2>Experience great diving scenery</h2>
+													<h2>Experience great diving scenery</h2>
 													<p className="tp-price-meta-details">@excellence</p>
-												</div>
 												</div>
 											</div>
 										</div>
@@ -132,7 +131,7 @@ class Banner extends Component {
 					</div>
 				</div>
 			</div>
-			<div className="banner-social-meta">
+		</div><div className="banner-social-meta">
 				<div className="banner-slider-dots" />
 				<ul className="social-icon">
 					<li>
@@ -145,8 +144,7 @@ class Banner extends Component {
 						<a className="pinterest" href="https://www.instagram.com/codingeeknet/" target="_blank"><i className="fa fa-instagram" /></a>
 					</li>
 				</ul>
-			</div>
-			<div className="container">
+			</div><div className="container">
 				<div className="banner-slider-controls">
 					<div className="slider-nav tp-control-nav" />
 					{/*slider-nav*/}
