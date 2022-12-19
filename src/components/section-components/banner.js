@@ -122,6 +122,7 @@ class Banner extends Component {
 													h2>Experience great diving scenery</h2>
 													<p className="tp-price-meta-details">@excellence</p>
 												</div>
+												</div>
 											</div>
 										</div>
 									</div>
