@@ -119,9 +119,8 @@ class Banner extends Component {
 										<div className="row">
 											<div className="col-sm-4 s-animate-3">
 												<div className="tp-price-meta">
-													<p>Price</p>
-													<h2>620 <small>$</small></h2>
-													<p className="tp-price-meta-details">7 Days Tour <span>on 2 person</span></p>
+													h2>Experience great diving scenery</h2>
+													<p className="tp-price-meta-details">@excellence</p>
 												</div>
 											</div>
 										</div>
