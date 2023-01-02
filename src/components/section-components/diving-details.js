@@ -73,11 +73,8 @@ class DivingDetails extends Component {
               </div>
               <div className="col-lg-6">
                 <p>
-                  South Africa has impressive cultural heritage. In different
-                  regions of the country, visitors will be able to experience
-                  different customs, traditions, and musical styles that are
-                  unique to each place. We sure have an incredible destination
-                  just waiting for you
+                We also specialises in dive tours along the South African coastline,
+                Meet with us and we will tailor make your diving holiday or alternatively join us on one of our popular group departures!
                 </p>
               </div>
               <div className="col-lg-6">
@@ -90,6 +87,60 @@ class DivingDetails extends Component {
                   the lively spirit of the city and surroundings, Vision Africa
                   is on hand to assist you with planning.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/diving-4.jpeg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/diving-5.jpeg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/diving-6.jpeg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

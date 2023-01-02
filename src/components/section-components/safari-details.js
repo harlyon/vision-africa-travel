@@ -119,6 +119,12 @@ class SafariDetails extends Component {
                     <img
                       src={"assets/img/others/elephant.webp"}
                       alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
                     />
                   </div>
                 </div>
@@ -129,6 +135,12 @@ class SafariDetails extends Component {
                     <img
                       src={"assets/img/others/safari2.jpeg"}
                       alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
                     />
                   </div>
                 </div>
@@ -139,6 +151,12 @@ class SafariDetails extends Component {
                     <img
                       src={"assets/img/others/giraffe-img.webp"}
                       alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
                     />
                   </div>
                 </div>
@@ -149,6 +167,12 @@ class SafariDetails extends Component {
                     <img
                       src={"assets/img/others/safari.jpeg"}
                       alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
                     />
                   </div>
                 </div>
@@ -159,6 +183,12 @@ class SafariDetails extends Component {
                     <img
                       src={"assets/img/others/plane.jpg.webp"}
                       alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
                     />
                   </div>
                 </div>
@@ -169,6 +199,12 @@ class SafariDetails extends Component {
                     <img
                       src={"assets/img/others/safari1.jpeg"}
                       alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
                     />
                   </div>
                 </div>

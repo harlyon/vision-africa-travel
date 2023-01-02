@@ -104,6 +104,156 @@ class GolfDetails extends Component {
             </div>
           </div>
         </div>
+        <div className="">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city-7.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city-1.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city-2.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city-3.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city-4.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city-5.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city-6.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/city-8.jpg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

@@ -87,6 +87,60 @@ class GolfDetails extends Component {
             </div>
           </div>
         </div>
+        <div className="">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/golf.jpeg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/golf-3.jpeg"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/golf-1.png"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

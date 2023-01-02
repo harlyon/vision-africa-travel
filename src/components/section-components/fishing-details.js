@@ -16,9 +16,7 @@ class FishingDetails extends Component {
                   <div className="destinations-details-main-slider">
                     <div className="d-details-main-slider-item">
                       <img
-                        src={
-                          publicUrl + "assets/img/fishing-1.jpg"
-                        }
+                        src={publicUrl + "assets/img/fishing-1.jpg"}
                         alt="img"
                         style={{
                           width: "100%",
@@ -28,17 +26,13 @@ class FishingDetails extends Component {
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        src={
-                          publicUrl + "assets/img/fishing-6.webp"
-                        }
+                        src={publicUrl + "assets/img/fishing-6.webp"}
                         alt="img"
                       />
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        src={
-                          publicUrl + "assets/img/fishing-7.webp"
-                        }
+                        src={publicUrl + "assets/img/fishing-7.webp"}
                         alt="img"
                         style={{
                           width: "100%",
@@ -49,11 +43,9 @@ class FishingDetails extends Component {
                     <div className="d-details-main-slider-item">
                       <img
                         style={{
-                            width: "100%",
+                          width: "100%",
                         }}
-                        src={
-                          publicUrl + "assets/img/fishing-4.webp"
-                        }
+                        src={publicUrl + "assets/img/fishing-4.webp"}
                         alt="img"
                       />
                     </div>
@@ -88,10 +80,12 @@ class FishingDetails extends Component {
               </div>
               <div className="col-lg-6">
                 <p>
-                If you strive to give the best fishing experience to your clients - we are proud to be your partner and give you the best experience.
-                We offer you Fishing charters, lodges, guides, private ponds - all types of fishing trips in one place!
-                Our support team will make sure that the whole experience is smooth from the booking to your fishing trip
-                  
+                  If you strive to give the best fishing experience to your
+                  clients - we are proud to be your partner and give you the
+                  best experience. We offer you Fishing charters, lodges,
+                  guides, private ponds - all types of fishing trips in one
+                  place! Our support team will make sure that the whole
+                  experience is smooth from the booking to your fishing trip
                 </p>
               </div>
               <div className="col-lg-6">
@@ -101,8 +95,54 @@ class FishingDetails extends Component {
                   traditional ties or cultural connections, to museums, art
                   galleries and craft markets. Whether you want to discover
                   South Africa’s traditional roots, diverse cultures or explore
-                  the lively spirit of the city and surroundings, Vision Africa is on hand to assist you with planning.
+                  the lively spirit of the city and surroundings, Vision Africa
+                  is on hand to assist you with planning.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img src={"assets/img/fishing-5.webp"} alt="img" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/fishing.webp"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="single-destination-grid text-center">
+                  <div className="thumb">
+                    <img
+                      src={"assets/img/fishing-8.webp"}
+                      alt="img"
+                      style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
