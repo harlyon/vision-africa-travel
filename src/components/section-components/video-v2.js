@@ -20,7 +20,7 @@ class VideoV2 extends Component {
                   stay in accommodations that have been family-owned for
                   generations
                 </p>
-                <Link className="btn btn-yellow" to="/#">
+                <Link className="btn btn-yellow" to="/about">
                   <span>
                     Read More
                     <i className="la la-arrow-right" />

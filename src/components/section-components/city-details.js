@@ -93,7 +93,7 @@ class GolfDetails extends Component {
               </div>
               <div className="col-lg-6">
                 <p>
-                  Johannesburg is a vibrant city that has a lot to offer
+                  South Africa is a vibrant country that has a lot to offer
                   visitors, from historic sights of political importance,
                   traditional ties or cultural connections, to museums, art
                   galleries and craft markets. Whether you want to discover

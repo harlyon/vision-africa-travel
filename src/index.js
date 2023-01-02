@@ -33,6 +33,8 @@ import CityTourPage from "./components/section-components/city-tour";
 import SafariTourPage from "./components/section-components/safari-tour";
 import loginPage from "./components/section-components/login";
 import Vision from "./components/section-components/vision";
+import FishingTourPage from './components/section-components/fishing-tour';
+import DivingTourPage from "./components/section-components/diving-tour";
 
 class Root extends Component {
   render() {
@@ -67,6 +69,8 @@ class Root extends Component {
             <Route path="/safari-tour" component={SafariTourPage} />
             <Route path="/login" component={loginPage} />
             <Route path="/vision" component={Vision} />
+            <Route path="/fishing-tour" component={FishingTourPage} />
+            <Route path="/diving-tour" component={DivingTourPage} />
           </Switch>
         </div>
       </Router>

@@ -75,13 +75,13 @@ const Navbar = () => {
                   <Link to="/safari-tour">Safari</Link>
                 </li>
                 <li>
-                  <Link to="/#">Fishing</Link>
+                  <Link to="/fishing-tour">Fishing</Link>
                 </li>
                 <li>
                   <Link to="/golf-tour">Golfing</Link>
                 </li>
                 <li>
-                  <Link to="/#">Diving</Link>
+                  <Link to="/diving-tour">Diving</Link>
                 </li>
               </ul>
             </li>
