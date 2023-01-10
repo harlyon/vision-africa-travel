@@ -14,11 +14,12 @@ class VideoV2 extends Component {
               <div className="section-title text-center viaje-go-top">
                 <h2 className="title">What makes us special</h2>
                 <p>
-                  We give you the opportunity to experience a destination with
-                  the help of a local, bilingual leader who is passionate about
-                  sharing their home with you. You’ll eat in local restaurants,
-                  stay in accommodations that have been family-owned for
-                  generations
+                  We are leaders in customized tour services in the Republic of
+                  South Africa. With more than 20 years experience of successful
+                  operating, we are highly recommended by our valued clients
+                  including high-ranking officials, celebrities and VIPs. We
+                  will make your trip a once-in-a-lifetime and unforgettable
+                  experience.
                 </p>
                 <Link className="btn btn-yellow" to="/about">
                   <span>

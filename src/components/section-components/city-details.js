@@ -45,7 +45,7 @@ class GolfDetails extends Component {
                     <div className="d-details-main-slider-item">
                       <img
                         style={{
-                            width: "100%",
+                          width: "100%",
                         }}
                         src={
                           "https://s3.amazonaws.com/images.wealthyaffiliate.com/uploads/1364196/sitecontent/1d27285876647650b27a33ab747ea265_cropped.jpg?1611963199"
@@ -84,21 +84,18 @@ class GolfDetails extends Component {
               </div>
               <div className="col-lg-6">
                 <p>
-                  South Africa has impressive cultural heritage. In different
-                  regions of the country, visitors will be able to experience
-                  different customs, traditions, and musical styles that are
-                  unique to each place. We sure have an incredible destination
-                  just waiting for you
+                  South Africa is a ‘Rainbow Nation’ that has so much to offer:
+                  from historic sights of political importance, traditional ties
+                  or cultural connections, to museums, art galleries,
+                  skyscrapers and African craft markets.
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  South Africa is a vibrant country that has a lot to offer
-                  visitors, from historic sights of political importance,
-                  traditional ties or cultural connections, to museums, art
-                  galleries and craft markets. Whether you want to discover
-                  South Africa’s traditional roots, diverse cultures or explore
-                  the lively spirit of the city and surroundings, Vision Africa is on hand to assist you with planning.
+                  Whether you want to discover South Africa’s traditional roots,
+                  diverse cultures or explore the lively spirit of modern city
+                  and surroundings, Vision Africa is ready to take you
+                  everywhere.
                 </p>
               </div>
             </div>

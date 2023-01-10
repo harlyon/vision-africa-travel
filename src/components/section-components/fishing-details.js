@@ -80,23 +80,19 @@ class FishingDetails extends Component {
               </div>
               <div className="col-lg-6">
                 <p>
-                  If you strive to give the best fishing experience to your
-                  clients - we are proud to be your partner and give you the
-                  best experience. We offer you Fishing charters, lodges,
-                  guides, private ponds - all types of fishing trips in one
-                  place! Our support team will make sure that the whole
-                  experience is smooth from the booking to your fishing trip
+                  If you are a fishing expert, or just want a relaxing afternoon
+                  with your family, Vision Africa is ready to assist. Private
+                  fishing charters will take you anywhere you want, with a
+                  well-experienced captain to guide you, or maybe a family
+                  boating trip along the river for your dinner.
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  South Africa is a vibrant country that has a lot to offer
-                  visitors, from historic sights of political importance,
-                  traditional ties or cultural connections, to museums, art
-                  galleries and craft markets. Whether you want to discover
-                  South Africa’s traditional roots, diverse cultures or explore
-                  the lively spirit of the city and surroundings, Vision Africa
-                  is on hand to assist you with planning.
+                  We offer a luxury or budget-friendly sea-fishing experience,
+                  also a private charter party can be arranged. The ocean is a
+                  beautiful unexplored place and Vision Africa will not
+                  disappoint you.
                 </p>
               </div>
             </div>

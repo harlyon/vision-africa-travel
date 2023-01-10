@@ -21,13 +21,13 @@ class IntroV3 extends Component {
                 </div>
                 <h4 className="intro-title">Who we are</h4>
                 <p>
-                  We are a tour and travel company based in Johannesburg, South
-                  Africa. We started with a long-term objective of offering a
-                  side range of safe, reliable specialized tours that focus on
-                  the magnificent, scenic and natural beauty of South Africa.
-                  With an experienced, friendly, helpful, understanding, and
-                  knowledgeable workforce. Our clients are assured of a safe and
-                  reliable safari experience while with us.
+                  We are an inbound tour operator and investment company based
+                  in Johannesburg, South Africa. Our co-founders have more than
+                  20 years of successful operating experience in Republic of
+                  South Africa. With an experienced, friendly, helpful,
+                  understanding, and knowledgeable workforce, our clients are
+                  assured of a seamless and reliable touring experience while
+                  with us.
                 </p>
               </div>
             </div>
@@ -38,14 +38,10 @@ class IntroV3 extends Component {
                 </div>
                 <h4 className="intro-title">Mission</h4>
                 <p>
-                  Our mission is to provide a lifetime, unforgettable safari
-                  experience to our clients be they families, couples,
-                  individual or group travelers. We also have a diverse
-                  knowledge of the tourism products in this region including
-                  wildlife safaris, mountain climbing, beach holidays, student
-                  packages and other tailor ­ made itineraries. We also arrange
-                  private, custom tours, group tours (including business/
-                  corporate).
+                  Our mission is to provide a once in a lifetime, tailored-made
+                  travel experience to our clients, whether it be families,
+                  couples, individual or group. Luxury or budget-friendly, we
+                  always have something fully bespoken for you… and only you.
                 </p>
               </div>
             </div>
@@ -56,11 +52,12 @@ class IntroV3 extends Component {
                 </div>
                 <h4 className="intro-title">Great Experience / Destination</h4>
                 <p>
-                  We at Vision Africa have gathered trips together so you can
-                  spend less time searching and more time dreaming about where
-                  you’ll go next. Whatever you want your luxury tour or safari
-                  itinerary to include, we’ve got something fully bespoke for
-                  you… and only you.
+                  Vision Africa Travel have gathered every element of travel, so
+                  you can spend less time searching and more time dreaming. We
+                  have a diverse knowledge of the various tourism products
+                  including wildlife safaris, golfing tours, extreme activities,
+                  business expo/delegation, luxury holiday, wedding plan and
+                  tailor-made products.
                 </p>
               </div>
             </div>

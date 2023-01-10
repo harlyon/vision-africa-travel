@@ -73,19 +73,14 @@ class DivingDetails extends Component {
               </div>
               <div className="col-lg-6">
                 <p>
-                We also specialises in dive tours along the South African coastline,
-                Meet with us and we will tailor make your diving holiday or alternatively join us on one of our popular group departures!
+                  Diving is one of South Africa’s adventurous activities and our
+                  coastline is a place of wonders waiting for you to explore.
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  South Africa is a vibrant country that has a lot to offer
-                  visitors, from historic sights of political importance,
-                  traditional ties or cultural connections, to museums, art
-                  galleries and craft markets. Whether you want to discover
-                  South Africa’s traditional roots, diverse cultures or explore
-                  the lively spirit of the city and surroundings, Vision Africa
-                  is on hand to assist you with planning.
+                  From shark cage diving to sardine run, and the most famous
+                  marine big-5 safari, Vision Africa make your dream come true.
                 </p>
               </div>
             </div>

@@ -88,23 +88,22 @@ class SafariDetails extends Component {
               </div>
               <div className="col-lg-6">
                 <p>
-                  Vision Africa safari tours let you experience one of Africa's
-                  greatest wildlife destinations. we not only offers
+                  Vision Africa is going to take you for a ride! To Africa's
+                  greatest wildlife destinations. Safari not only offers
                   breathtaking natural beauty in one of the world’s most
-                  pristine environments, but it also allows you to get up close
-                  and personal with some of Africa’s most coveted animals.
-                  Safaris remain one of the top travel experiences in the world
-                  where expert local guides and tailor-made tours are essentia
+                  pristine wild environments, but also allows you to get up
+                  close and personal with some of Africa’s most coveted animals.
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  Whether you’re after a safari on a budget, an experience that
-                  is comfortable yet affordable, or an exclusive experience
-                  luxury South Africa safari, Vision Africa Safaris can assist.
-                  Our knowledgeable staff combined with our customizable,
-                  interest-driven packages deliver one of the best safaris in
-                  South Africa..
+                  Safaris remain one of our favorite travel experiences, and it
+                  suits most people of all ages. What makes it even better is we
+                  always offer tailor-made safaris, such as private safari, bush
+                  walk, night safari, helicopter safari, hot-air balloon safari
+                  and so much more. Budget-friendly or super luxury, Vision
+                  Africa is always ready to assist with your best experience in
+                  South Africa.
                 </p>
               </div>
             </div>

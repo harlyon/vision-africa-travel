@@ -70,18 +70,17 @@ class GolfDetails extends Component {
               </div>
               <div className="col-lg-6">
                 <p>
-                  South Africa is brimming with talented golfers. Vision Africa
-                  Tour gives the opportunity to play on championship golf
-                  courses under professional conditions more often. We care
-                  about how much you will enjoy the event. Ultimately, this is a
-                  tour for you, the players
+                  South Africa is famous for its world-class golf courses, each
+                  in its own unique setting.
                 </p>
               </div>
               <div className="col-lg-6">
                 <p>
-                  Vision Africa tour perfect golfing trip when you are visiting
-                  South Africa during the cooler winter months when temperatures
-                  are mild, no chance of rain and winter islands.
+                  Vision Africa will give you the opportunity to play with pro
+                  players; don’t like being serious? how about playing golf with
+                  some crocodiles and giraffes? Or maybe by the sea? Vision
+                  Africa can take you to the most unique and famous golf courses
+                  in South Africa. It’s an ultimate tour for golf players.
                 </p>
               </div>
             </div>

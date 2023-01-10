@@ -14,20 +14,15 @@ class About extends Component {
                   Your Next Adventure <br /> Is a Click Away
                 </h2>
                 <p>
-                  Our trips deliver unforgettable travel moments. Below we
-                  reveal just a little of the variety of experiences you can
-                  partake in – all combined to make your safari meaningful,
-                  immersive – the journey of a lifetime. Get inspired by
-                  browsing through some of our most popular example trips below.
-                  To find out more get in touch with our team of expert South
-                  African Travel Specialists to start curating your Bucket List
-                  Luxury Vacation today.
+                  Get inspired by browsing through some of our most popular
+                  exampled trips. To find out more, please get in touch with our
+                  experts to start creating your dream vacation now.
                 </p>
               </div>
             </div>
             <div className="col-lg-6 col-xl-5 offset-lg-2">
               <div className="thumb">
-                  <img src={publicUrl + "assets/img/about-img.webp"} alt="img" />
+                <img src={publicUrl + "assets/img/about-img.webp"} alt="img" />
               </div>
             </div>
           </div>
