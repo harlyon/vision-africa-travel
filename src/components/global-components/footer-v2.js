@@ -45,8 +45,12 @@ class Footer_v2 extends Component {
               <div className="about_us_widget text-center">
                 <Link to="/" className="footer-logo">
                   <img
-                    // src={publicUrl + "assets/img/sticky-logo.png"}
+                    src={publicUrl + "assets/img/vision.png"}
                     alt="footerlogo"
+                    style={{
+                      height: "20px",
+                      width: "100%",
+                    }}
                   />
                 </Link>
                 {/* <p>

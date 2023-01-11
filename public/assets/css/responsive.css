@@ -366,7 +366,7 @@
         height: auto;
     }
     .about_us_widget .footer-logo {
-        width: 120px;
+        /* width: 120px; */
         height: auto;
     }
 }
@@ -1700,7 +1700,7 @@
 
 
     .responsive-mobile-menu .mobile-logo img {
-        width: 87px;
+        /* width: 87px; */
     }
     .section-title .title {
         font-size: 30px;

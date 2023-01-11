@@ -2400,11 +2400,17 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .responsive-mobile-menu .nav-right-content {
   display: none; }
 
+@media all and (min-width: 368px) {
+  .responsive-mobile-menu .mobile-logo img {
+
+  }
+}
+
 @media all and (max-width: 991px) {
   .responsive-mobile-menu {
     width: 100%; }
     .responsive-mobile-menu .mobile-logo img {
-      width: 115px;
+      width: 376px;
       height: auto;
       margin-top: 5px; }
     .responsive-mobile-menu .navbar-toggler {
@@ -2569,10 +2575,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .error-page-area .logo-wrapper,
 .comming-soon-page .logo-wrapper,
 .navbar-area .nav-container .desktop-logo img {
-  max-width: 135px; }
+  max-width: 135px; 
+}
 
 .about_us_widget .footer-logo img {
-  max-width: 110px; }
+  /* max-width: 110px;  */
+}
 
 .nav-right-content ul li .btn {
   height: 49px;
