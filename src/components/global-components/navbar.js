@@ -6,12 +6,17 @@ const Navbar = () => {
   let imgattr = "logo";
   let anchor = "#";
   return (
-    <nav className="navbar navbar-area navbar-expand-lg nav-style-01 viaje-go-top">
-      <div className="container nav-container">
+    <nav style={{
+      backgroundColor: '#fff', textAlign: 'center'
+    }} className="navbar navbar-area navbar-expand-lg nav-style-01 viaje-go-top">
+      <div className="container nav-container" style={{
+        paddingLeft: '38px',
+        paddingRight: '0px'
+      }}>
         <div className="responsive-mobile-menu">
           <div className="mobile-logo">
             <Link to="/">
-              <img src={publicUrl + "assets/img/vislogo.png"} alt={imgattr} />
+              <img src={publicUrl + "assets/img/vision.png"} alt={imgattr} />
             </Link>
           </div>
           <button
@@ -50,20 +55,22 @@ const Navbar = () => {
           <div className="logo-wrapper desktop-logo">
             <Link to="/" className="main-logo">
               <img
-                src={publicUrl + "assets/img/vislogo.png"}
+                src={publicUrl + "assets/img/vision.png"}
                 alt="logo"
                 style={{
-                  height: "40px",
-                  width: "160px",
+                  transform: 'scale(3.1,4)',
+                  display: 'block',
+                  paddingLeft: '30px',
                 }}
               />
             </Link>
             <Link to="/" className="sticky-logo">
               <img
-                src={publicUrl + "assets/img/vislogo.png"}
+                src={publicUrl + "assets/img/vision.png"}
                 style={{
-                  height: "40px",
-                  width: "160px",
+                  transform: 'scale(3.1,4)',
+                  display: 'block',
+                  paddingLeft: '30px',
                 }}
                 alt="logo"
               />
@@ -71,13 +78,13 @@ const Navbar = () => {
           </div>
           <ul className="navbar-nav">
             <li>
-              <Link to="/">Home</Link>
+              <Link style={{color: '#333'}} to="/">Home</Link>
             </li>
             <li>
-              <Link to="/vision">Vision of Difference</Link>
+              <Link style={{color: '#333'}} to="/vision">Vision of Difference</Link>
             </li>
-            <li className="menu-item-has-children">
-              <a href="#">Activities</a>
+            <li style={{color: '#333'}} className="menu-item-has-children">
+              <a style={{color: '#333'}} href="#">Activities</a>
               <ul className="sub-menu">
                 <li>
                   <Link to="/city-tour">City Tour</Link>
@@ -97,10 +104,10 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link style={{color: '#333'}} to="/about">About Us</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link style={{color: '#333'}} to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
@@ -108,10 +115,10 @@ const Navbar = () => {
           <ul>
             <li>
               <Link className="btn btn-yellow" to="/login">
-                VIP Entrance <i className="fa fa-paper-plane" />
+                VIP Access <i className="fa fa-paper-plane" />
               </Link>
             </li>
-            <li className="tp-lang">
+            <li style={{color: '#333'}} className="tp-lang">
               <div className="tp-lang-wrap">
                 <select className="select single-select">
                   <option value={1}>ENG</option>

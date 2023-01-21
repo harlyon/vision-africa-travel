@@ -35,7 +35,7 @@ class Error extends Component {
                   <p>
                     We're sorry, the page you requested could not be found.
                     pleases go back tho the homepage or contact us at
-                    Viaje@gmail.com
+                    info@visiontravel.co.za
                   </p>
                   <Link className="btn btn-yellow" to="/">
                     Back To Home
