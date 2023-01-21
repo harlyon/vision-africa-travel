@@ -17,7 +17,8 @@ class DivingDetails extends Component {
                         alt="img"
                         style={{
                           width: "100%",
-                          // height: "750px",
+                          height: "850px",
+                          objectFit: 'cover'
                         }}
                       />
                     </div>

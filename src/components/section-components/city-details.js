@@ -22,7 +22,9 @@ class GolfDetails extends Component {
                         alt="img"
                         style={{
                           width: "100%",
-                          // height: "750px",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
                         }}
                       />
                     </div>
@@ -32,6 +34,12 @@ class GolfDetails extends Component {
                           "https://www.mainstreetwalks.co.za/wp-content/uploads/2019/08/Innercity-1_v2.jpg"
                         }
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
+                        }}
                       />
                     </div>
                     <div className="d-details-main-slider-item">
@@ -40,17 +48,26 @@ class GolfDetails extends Component {
                           "https://www.traveledgeindia.com/assets/uploads/2018/04/Johannesburg.jpg"
                         }
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
+                        }}
                       />
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        style={{
-                          width: "100%",
-                        }}
                         src={
                           "https://s3.amazonaws.com/images.wealthyaffiliate.com/uploads/1364196/sitecontent/1d27285876647650b27a33ab747ea265_cropped.jpg?1611963199"
                         }
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
+                        }}
                       />
                     </div>
                   </div>

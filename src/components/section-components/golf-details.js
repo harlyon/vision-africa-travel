@@ -20,6 +20,12 @@ class GolfDetails extends Component {
                           "https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2016/03/15/56e82f36c750880b76a249f2_tour-operators-Carr-Golf.jpg"
                         }
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
+                        }}
                       />
                     </div>
                     <div className="d-details-main-slider-item">
@@ -28,6 +34,12 @@ class GolfDetails extends Component {
                           "https://www.exploremoretravel.com/wp-content/uploads/2019/09/Leopard-Creek-1-2000x1040.jpg"
                         }
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
+                        }}
                       />
                     </div>
                     <div className="d-details-main-slider-item">
@@ -37,6 +49,12 @@ class GolfDetails extends Component {
                           "https://image-prod.iol.co.za/16x9/800/JOHANNESBURG-SOUTH-AFRICA-NOVEMBER-20-Dylan-Naidoo-during-day-2-of-the-2020-Joburg-Open-at-Randpark-Golf-Club-on-November-20-2020-in-Johannesburg-South-Africa-Picture-credit-Carl-Fourie-Sunshine-Tour?source=https://xlibris.public.prod.oc.inl.infomaker.io:8443/opencontent/objects/b8a94894-8995-5b28-9e9f-3f7ad0bef8b5&operation=CROP&offset=0x655&resize=6463x3638"
                         }
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
+                        }}
                       />
                     </div>
                   </div>

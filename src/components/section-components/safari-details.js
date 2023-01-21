@@ -20,6 +20,11 @@ class SafariDetails extends Component {
                           "https://et-website.s3.amazonaws.com/uploads/2017/05/Enchanting-Travel-Zimbabwe-Tours-Hwange-Camp-Hwange-Game-drives.jpg"
                         }
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover'
+                        }}
                       />
                     </div>
                     <div className="d-details-main-slider-item">
@@ -28,11 +33,20 @@ class SafariDetails extends Component {
                           "https://imengine.prod.srp.navigacloud.com/?uuid=3BCEE8C3-A306-470F-BF3C-D3762C99083C&type=primary&q=72&width=1024"
                         }
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover'
+                        }}
                       />
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        width="100%"
+                         style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover'
+                        }}
                         src={
                           "https://i.insider.com/5f1089583ad861491036b8a2?width=700"
                         }
@@ -41,7 +55,11 @@ class SafariDetails extends Component {
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        width="100%"
+                         style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover'
+                        }}
                         src={
                           "https://www.safariventures.com/wp-content/uploads/2019/08/DSC8658-2-640x480.jpg"
                         }
@@ -50,7 +68,11 @@ class SafariDetails extends Component {
                     </div>
                     <div className="d-details-main-slider-item">
                       <img
-                        width="100%"
+                         style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover'
+                        }}
                         src={
                           "https://www.getyourguide.com/magazine/wp-content/migrated-content/uploads/2019/06/Header_2-2019.07.22-9-tips-for-the-ultimate-African-safari-GetYourGuide-1200x900.jpg"
                         }

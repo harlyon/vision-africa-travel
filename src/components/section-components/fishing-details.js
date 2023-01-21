@@ -21,6 +21,8 @@ class FishingDetails extends Component {
                         style={{
                           width: "100%",
                           height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
                         }}
                       />
                     </div>
@@ -28,6 +30,12 @@ class FishingDetails extends Component {
                       <img
                         src={publicUrl + "assets/img/fishing-6.webp"}
                         alt="img"
+                        style={{
+                          width: "100%",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
+                        }}
                       />
                     </div>
                     <div className="d-details-main-slider-item">
@@ -37,6 +45,8 @@ class FishingDetails extends Component {
                         style={{
                           width: "100%",
                           height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
                         }}
                       />
                     </div>
@@ -44,6 +54,9 @@ class FishingDetails extends Component {
                       <img
                         style={{
                           width: "100%",
+                          height: "850px",
+                          objectFit: 'cover',
+                          objectPosition: "center",
                         }}
                         src={publicUrl + "assets/img/fishing-4.webp"}
                         alt="img"
@@ -104,7 +117,12 @@ class FishingDetails extends Component {
               <div className="col-lg-4 col-md-6">
                 <div className="single-destination-grid text-center">
                   <div className="thumb">
-                    <img src={"assets/img/fishing-5.webp"} alt="img" />
+                    <img src={"assets/img/fishing-5.webp"} style={{
+                        width: "100%",
+                        height: "340px",
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }} alt="img" />
                   </div>
                 </div>
               </div>
