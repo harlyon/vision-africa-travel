@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="responsive-mobile-menu">
           <div className="mobile-logo">
             <Link to="/">
-              {/* <img src={publicUrl + "assets/img/vision.png"} alt={imgattr} /> */}
+              <img src={publicUrl + "assets/img/vislogo.png"} alt={imgattr} />
             </Link>
           </div>
           <button
@@ -49,24 +49,24 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="tp_main_menu">
           <div className="logo-wrapper desktop-logo">
             <Link to="/" className="main-logo">
-              {/* <img
-                src={publicUrl + "assets/img/vision.png"}
+              <img
+                src={publicUrl + "assets/img/vislogo.png"}
                 alt="logo"
                 style={{
-                  height: "20px",
-                  width: "100%",
+                  height: "40px",
+                  width: "160px",
                 }}
-              /> */}
+              />
             </Link>
             <Link to="/" className="sticky-logo">
-              {/* <img
-                src={publicUrl + "assets/img/vision.png"}
+              <img
+                src={publicUrl + "assets/img/vislogo.png"}
                 style={{
-                  height: "20px",
-                  width: "100%",
+                  height: "40px",
+                  width: "160px",
                 }}
                 alt="logo"
-              /> */}
+              />
             </Link>
           </div>
           <ul className="navbar-nav">

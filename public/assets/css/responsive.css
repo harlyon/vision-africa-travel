@@ -82,6 +82,20 @@
     }
 
 }
+/*
+.section-image-container {
+    width: 100%;
+    height: 950px,
+} */
+
+@media only screen and (min-width: 1200px){
+    .section-image-container {
+        width: 100%;
+        height: 950px,
+    }
+}
+
+
 
 /* Medium Layout: 1550px. */
 @media only screen and (max-width: 1550px){
@@ -139,6 +153,7 @@
         padding: 5px;
         margin-top: -33px;
         margin-left: -30px;
+        display: none;
     }
     .video-popup-btn .video-play-btn {
         height: 50px;
@@ -146,6 +161,7 @@
         font-size: 16px;
         line-height: 52px;
         padding-left: 2px;
+        display: none;
     }
     .tp-control-nav .slick-arrow {
         border-width: 2px !important;
@@ -167,7 +183,7 @@
     .tp-pagination ul li .page-numbers.prev, .tp-pagination ul li .page-numbers.next {
         line-height: 43px;
     }
-    .tp-pagination ul li .page-numbers.prev i, 
+    .tp-pagination ul li .page-numbers.prev i,
     .tp-pagination ul li .page-numbers.next i {
         line-height: 40px;
         font-size: 24px;
@@ -329,7 +345,7 @@
     }
 
 
-    
+
     /****** 404 page responsive ********/
     .error-page-info h1 {
         font-size: 300px;
@@ -906,7 +922,7 @@
     .single-travelus h4 {
         font-size: 15px;
     }
-    .single-travelus-wrap:nth-child(1):after, 
+    .single-travelus-wrap:nth-child(1):after,
     .single-travelus-wrap:nth-child(3):after {
         top: -25px;
     }
@@ -1319,7 +1335,7 @@
     .single-blog-post-tags {
         margin-top: 30px;
     }
-    .single-post-navigation .nav-previous, 
+    .single-post-navigation .nav-previous,
     .single-post-navigation .nav-next {
         border: 0;
         border-radius: 0;
@@ -1419,7 +1435,7 @@
     .tp-pagination ul li .page-numbers.prev, .tp-pagination ul li .page-numbers.next {
         line-height: 40px;
     }
-    .tp-pagination ul li .page-numbers.prev i, 
+    .tp-pagination ul li .page-numbers.prev i,
     .tp-pagination ul li .page-numbers.next i {
         line-height: 38px;
     }
@@ -1558,7 +1574,7 @@
     .banner-slider-two .banner-inner .title-and-video .video-popup-wrap {
         width: 37%;
     }
-    
+
 
     /***** destination-list ******/
     .single-destinations-list.style-three .list-price-meta .tp-price-meta {
@@ -1592,7 +1608,7 @@
         left: 50%;
         margin-left: -45px;
     }
-    
+
     .comming-soon-info-wrap {
         min-height: 800px;
     }
@@ -1680,7 +1696,7 @@
     .tp-pagination ul li .page-numbers.prev, .tp-pagination ul li .page-numbers.next {
         line-height: 38px;
     }
-    .tp-pagination ul li .page-numbers.prev i, 
+    .tp-pagination ul li .page-numbers.prev i,
     .tp-pagination ul li .page-numbers.next i {
         line-height: 36px;
         font-size: 24px;
@@ -1700,7 +1716,7 @@
 
 
     .responsive-mobile-menu .mobile-logo img {
-        /* width: 87px; */
+        width: 230px;
     }
     .section-title .title {
         font-size: 30px;
@@ -1764,7 +1780,7 @@
     }
     .banner-social-meta .social-icon li {
         margin: 0 2px;
-    } 
+    }
     .single-destinations-list.style-two .thumb img {
         width: 100%;
     }
@@ -1842,7 +1858,7 @@
     }
     .footer-area.style-two .footer-widget .widget-contact p {
         text-align: center !important;
-    } 
+    }
     .upcomming-card-slider-2 .single-upconing-card {
         margin: 10px;
     }
@@ -1887,7 +1903,7 @@
         margin-bottom: 30px;
     }
 
-    
+
     /***** destination-list ******/
     .single-destinations-list.style-three .thumb {
         flex: 0 0 100%;
@@ -1966,8 +1982,8 @@
     .newslatter-area-blog.pd-top-108 {
         padding-top: 120px;
     }
-    
-    
+
+
     .comming-soon-info-wrap {
         padding: 110px 0 115px 0;
     }
@@ -1989,7 +2005,7 @@
         width: 100px;
     }
 
-    
+
 
     /**** footer responsive *****/
     .back-to-top {
@@ -2096,7 +2112,7 @@
 
 
     .tp-holiday-plan-area.mg-top-96 {
-       margin-top: 68px; 
+       margin-top: 68px;
     }
     .client-review-area-home.pd-top-70 {
         padding-top: 42px;

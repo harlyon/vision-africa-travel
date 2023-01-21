@@ -21,7 +21,7 @@ class Banner extends Component {
                           </h2>
                         </div>
                       </div>
-                      <div className="col-lg-3 col-sm-4">
+                      {/* <div className="col-lg-3 col-sm-4">
                         <div className="video-popup-btn s-animate-video">
                           <a
                             href="https://www.youtube.com/watch?v=c7XEhXZ_rsk"
@@ -30,7 +30,7 @@ class Banner extends Component {
                             <i className="fa fa-play" />
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-lg-12 banner-tour-package">
                         <div className="row">
                           <div className="col-sm-4 s-animate-3">
@@ -63,7 +63,7 @@ class Banner extends Component {
                           </h2>
                         </div>
                       </div>
-                      <div className="col-lg-3 col-sm-4">
+                      {/* <div className="col-lg-3 col-sm-4">
                         <div className="video-popup-btn s-animate-video">
                           <a
                             href="https://www.youtube.com/watch?v=c7XEhXZ_rsk"
@@ -72,7 +72,7 @@ class Banner extends Component {
                             <i className="fa fa-play" />
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-lg-12 banner-tour-package">
                         <div className="row">
                           <div className="col-sm-4 s-animate-3">
@@ -105,7 +105,7 @@ class Banner extends Component {
                           </h2>
                         </div>
                       </div>
-                      <div className="col-lg-3 col-sm-4">
+                      {/* <div className="col-lg-3 col-sm-4">
                         <div className="video-popup-btn s-animate-video">
                           <a
                             href="https://www.youtube.com/watch?v=c7XEhXZ_rsk"
@@ -114,7 +114,7 @@ class Banner extends Component {
                             <i className="fa fa-play" />
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-lg-12 banner-tour-package">
                         <div className="row">
                           <div className="col-sm-4 s-animate-3">
@@ -149,7 +149,7 @@ class Banner extends Component {
                           </h2>
                         </div>
                       </div>
-                      <div className="col-lg-3 col-sm-4">
+                      {/* <div className="col-lg-3 col-sm-4">
                         <div className="video-popup-btn s-animate-video">
                           <a
                             href="https://www.youtube.com/watch?v=c7XEhXZ_rsk"
@@ -158,7 +158,7 @@ class Banner extends Component {
                             <i className="fa fa-play" />
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-lg-12 banner-tour-package">
                         <div className="row">
                           <div className="col-sm-4 s-animate-3">
