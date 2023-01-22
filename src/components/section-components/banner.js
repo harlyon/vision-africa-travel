@@ -184,7 +184,7 @@ class Banner extends Component {
             <li>
               <a
                 className="facebook"
-                href="https://www.facebook.com/codingeek.net/"
+                href="/"
                 target="_blank"
               >
                 <i className="fa fa-facebook" />
@@ -193,7 +193,7 @@ class Banner extends Component {
             <li>
               <a
                 className="twitter"
-                href="https://twitter.com/codingeeknet"
+                href="/"
                 target="_blank"
               >
                 <i className="fa fa-twitter" />
@@ -202,7 +202,7 @@ class Banner extends Component {
             <li>
               <a
                 className="pinterest"
-                href="https://www.instagram.com/codingeeknet/"
+                href="/"
                 target="_blank"
               >
                 <i className="fa fa-instagram" />
