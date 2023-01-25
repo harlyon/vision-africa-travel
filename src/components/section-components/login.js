@@ -1,10 +1,23 @@
-import React from "react";
+import React, {useState} from "react";
 import Navbar from "../global-components/navbar";
 import Footer from "../global-components/footer-v2";
 import Banner from "./banner-v2";
 import Page_header from "../global-components/page-header";
 
-const loginPage = () => {
+const LoginPage = () => {
+  const [userName, setUserName] = useState('')
+  const [password, setPassword] = useState('')
+  const [error, setError] = useState('');
+
+  const login = (e) => {
+    e.preventDefault()
+    if (!userName || !password) {
+     setError('Username and password cannot be empty');
+    }
+    // Perform login logic here
+    setError('Wrong details')
+  }
+
   return (
     <>
       <Navbar />
@@ -26,8 +39,13 @@ const loginPage = () => {
             </div>
             <form className="login-form-wrap">
               <h4 className="text-center">Sign In</h4>
+              {error && (
+                <div style={{color: 'red', textAlign: 'center'}} className="sign-in-btn">
+                {error}
+              </div>
+              )}
               <div className="single-input-wrap style-two">
-                <input type="text" placeholder="Name" />
+                <input input type="text" placeholder="Username" value={userName} onChange={e => setUserName(e.target.value)} />
                 <span className="single-input-title">
                   <i className="fa fa-user" />
                 </span>
@@ -39,7 +57,7 @@ const loginPage = () => {
               </span>
             </div> */}
               <div className="single-input-wrap style-two">
-                <input type="text" placeholder="Password" />
+                <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />
                 <span className="single-input-title">
                   <i className="fa fa-lock" />
                 </span>
@@ -49,7 +67,7 @@ const loginPage = () => {
                 <span>Remember me</span>
               </label>
               <div className="single-input-wrap style-two">
-                <button className="btn btn-yellow w-100">Sign Up</button>
+                <button onClick={login} className="btn btn-yellow w-100">Sign Up</button>
               </div>
               <div className="sign-in-btn">
                 I already have an account. <a href="#">Sign In</a>
@@ -83,4 +101,4 @@ const loginPage = () => {
   );
 };
 
-export default loginPage;
+export default LoginPage;
