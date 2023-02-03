@@ -1,4 +1,5 @@
 import React from "react";
+import CookieConsent from "react-cookie-consent";
 import Navbar from "./global-components/navbar";
 // import Banner from './section-components/banner-v2';
 import Banner from "./section-components/banner";
@@ -22,6 +23,21 @@ const Home_V3 = () => {
       <Banner />
       <Video />
       <Footer />
+      <CookieConsent
+       enableDeclineButton
+        onDecline={() => {
+          alert("nay!");
+        }}
+        location="bottom"
+        buttonText="Accept"
+        cookieName="myAwesomeCookieName2"
+        style={{ background: "#666" }}
+        buttonStyle={{ color: "#fff", fontSize: "14px", borderRadius: "4px", background: "#CB9275", padding: "0 22px"  }}
+        declineButtonStyle={{ color: "#fff", fontSize: "14px", borderRadius: "4px", background: "#CB9275", padding: "0 22px"  }}
+        expires={150}
+      >
+        This website uses cookies to enhance the user experience.{" "}
+      </CookieConsent>
     </div>
   );
 };
