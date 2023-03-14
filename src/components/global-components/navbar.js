@@ -1,18 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ language, changeLanguage }) => {
   let publicUrl = process.env.PUBLIC_URL + "/";
   let imgattr = "logo";
   let anchor = "#";
+
   return (
-    <nav style={{
-      backgroundColor: '#fff', textAlign: 'center'
-    }} className="navbar navbar-area navbar-expand-lg nav-style-01 viaje-go-top">
-      <div className="container nav-container" style={{
-        paddingLeft: '38px',
-        paddingRight: '0px'
-      }}>
+    <nav
+      style={{
+        backgroundColor: "#fff",
+        textAlign: "center",
+      }}
+      className="navbar navbar-area navbar-expand-lg nav-style-01 viaje-go-top"
+    >
+      <div
+        className="container nav-container"
+        style={{
+          paddingLeft: "38px",
+          paddingRight: "0px",
+        }}
+      >
         <div className="responsive-mobile-menu">
           <div className="mobile-logo">
             <Link to="/">
@@ -40,11 +48,15 @@ const Navbar = () => {
                   VIP Entrance <i className="fa fa-paper-plane" />
                 </Link>
               </li>
-              <li className="tp-lang">
+              <li style={{ color: "#333" }} className="tp-lang">
                 <div className="tp-lang-wrap">
-                  <select className="select single-select">
-                    <option value={1}>ENG</option>
-                    <option value={3}>Chinese</option>
+                  <select
+                    className="single-select"
+                    value={language}
+                    onChange={changeLanguage}
+                  >
+                    <option value="en">English</option>
+                    <option value="ch">Chinese</option>
                   </select>
                 </div>
               </li>
@@ -58,9 +70,9 @@ const Navbar = () => {
                 src={publicUrl + "assets/img/vision.png"}
                 alt="logo"
                 style={{
-                  transform: 'scale(3.1,4)',
-                  display: 'block',
-                  paddingLeft: '30px',
+                  transform: "scale(3.1,4)",
+                  display: "block",
+                  paddingLeft: "30px",
                 }}
               />
             </Link>
@@ -68,9 +80,9 @@ const Navbar = () => {
               <img
                 src={publicUrl + "assets/img/vision.png"}
                 style={{
-                  transform: 'scale(3.1,4)',
-                  display: 'block',
-                  paddingLeft: '30px',
+                  transform: "scale(3.1,4)",
+                  display: "block",
+                  paddingLeft: "30px",
                 }}
                 alt="logo"
               />
@@ -78,13 +90,19 @@ const Navbar = () => {
           </div>
           <ul className="navbar-nav">
             <li>
-              <Link style={{color: '#333'}} to="/">Home</Link>
+              <Link style={{ color: "#333" }} to="/">
+                {language === "ch" ? "首页" : "Home"}
+              </Link>
             </li>
             <li>
-              <Link style={{color: '#333'}} to="/vision">Vision of Difference</Link>
+              <Link style={{ color: "#333" }} to="/vision">
+                Vision of Difference
+              </Link>
             </li>
-            <li style={{color: '#333'}} className="menu-item-has-children">
-              <a style={{color: '#333'}} href="#">Activities</a>
+            <li style={{ color: "#333" }} className="menu-item-has-children">
+              <a style={{ color: "#333" }} href="#">
+                {language === "ch" ? "活动" : "Activities"}
+              </a>
               <ul className="sub-menu">
                 <li>
                   <Link to="/city-tour">City Tour</Link>
@@ -104,10 +122,14 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <Link style={{color: '#333'}} to="/about">About Us</Link>
+              <Link style={{ color: "#333" }} to="/about">
+                {language === "ch" ? "关于我们" : "About Us"}
+              </Link>
             </li>
             <li>
-              <Link style={{color: '#333'}} to="/contact">Contact</Link>
+              <Link style={{ color: "#333" }} to="/contact">
+                {language === "ch" ? "联系我们" : "Contact"}
+              </Link>
             </li>
           </ul>
         </div>
@@ -118,11 +140,15 @@ const Navbar = () => {
                 VIP Access <i className="fa fa-paper-plane" />
               </Link>
             </li>
-            <li style={{color: '#333'}} className="tp-lang">
+            <li style={{ color: "#333" }} className="tp-lang">
               <div className="tp-lang-wrap">
-                <select className="select single-select">
-                  <option value={1}>ENG</option>
-                  <option value={3}>Chinese</option>
+                <select
+                  className="single-select"
+                  value={language}
+                  onChange={changeLanguage}
+                >
+                  <option value="en">English</option>
+                  <option value="ch">Chinese / 中文</option>
                 </select>
               </div>
             </li>

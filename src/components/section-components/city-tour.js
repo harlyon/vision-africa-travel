@@ -2,15 +2,19 @@ import React from "react";
 import Navbar from "../global-components/navbar";
 import CityDetails from "./city-details";
 import Footer from "../global-components/footer-v2";
+import useLanguage from "../../hooks/useLanguage";
 
 const CityTourPage = () => {
+  let publicUrl = process.env.PUBLIC_URL + "/";
+  const [language, changeLanguage] = useLanguage();
+
   return (
     <div>
-      <Navbar />
+      <Navbar language={language} changeLanguage={changeLanguage} />
       <div
         className="breadcrumb-area jarallax"
         style={{
-          backgroundImage: "url(https://cableandcompany.net/wp-content/uploads/2022/08/madrid-at-night.jpeg)",
+          backgroundImage: "url(" + publicUrl + "assets/img/banner/night.jpeg)",
         }}
       >
         <div className="container">
@@ -24,7 +28,7 @@ const CityTourPage = () => {
           </div>
         </div>
       </div>
-      <CityDetails />
+      <CityDetails language={language} />
       <Footer />
     </div>
   );
