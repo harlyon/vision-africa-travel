@@ -15,16 +15,19 @@ import BlogSection from "./blog-components/blog-section-v2";
 import Ads from "./section-components/ads";
 import Instagram from "./section-components/instagram";
 import Footer from "./global-components/footer-v2";
+import useLanguage from "../hooks/useLanguage";
 
 const Home_V3 = () => {
+  const [language, changeLanguage] = useLanguage();
+
   return (
     <div>
-      <Navbar />
+      <Navbar language={language} changeLanguage={changeLanguage} />
       <Banner />
-      <Video />
+      <Video language={language} />
       <Footer />
       <CookieConsent
-       enableDeclineButton
+        enableDeclineButton
         onDecline={() => {
           alert("nay!");
         }}
@@ -32,8 +35,20 @@ const Home_V3 = () => {
         buttonText="Accept"
         cookieName="myAwesomeCookieName2"
         style={{ background: "#666" }}
-        buttonStyle={{ color: "#fff", fontSize: "14px", borderRadius: "4px", background: "#CB9275", padding: "0 22px"  }}
-        declineButtonStyle={{ color: "#fff", fontSize: "14px", borderRadius: "4px", background: "#CB9275", padding: "0 22px"  }}
+        buttonStyle={{
+          color: "#fff",
+          fontSize: "14px",
+          borderRadius: "4px",
+          background: "#CB9275",
+          padding: "0 22px",
+        }}
+        declineButtonStyle={{
+          color: "#fff",
+          fontSize: "14px",
+          borderRadius: "4px",
+          background: "#CB9275",
+          padding: "0 22px",
+        }}
         expires={150}
       >
         This website uses cookies to enhance the user experience.{" "}

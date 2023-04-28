@@ -6,14 +6,17 @@ import About from "./section-components/about";
 import History from "./section-components/history";
 import Team from "./section-components/team";
 import Footer from "./global-components/footer-v2";
+import useLanguage from "../hooks/useLanguage";
 
 const AboutPage = () => {
+  const [language, changeLanguage] = useLanguage();
+
   return (
     <div>
-      <Navbar />
+      <Navbar language={language} changeLanguage={changeLanguage} />
       <PageHeader headertitle="About Vision Africa" />
-      <Intro />
-      <About />
+      <Intro language={language} />
+      <About language={language} />
       <Footer />
     </div>
   );
