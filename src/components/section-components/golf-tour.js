@@ -28,7 +28,7 @@ const GolfTourPage = () => {
         </div>
       </div>
       <GolfDetails language={language} />
-      <Footer />
+      <Footer language={language} />
     </div>
   );
 };

@@ -28,7 +28,7 @@ const FishingTourPage = () => {
         </div>
       </div>
       <FishingDetails language={language} />
-      <Footer />
+      <Footer language={language} />
     </div>
   );
 };

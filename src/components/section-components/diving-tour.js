@@ -28,7 +28,7 @@ const DivingTourPage = () => {
         </div>
       </div>
       <DivingDetails language={language} />
-      <Footer />
+      <Footer language={language} />
     </div>
   );
 };

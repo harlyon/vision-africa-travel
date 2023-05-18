@@ -28,7 +28,7 @@ const SafariTourPage = () => {
         </div>
       </div>
       <SafariDetails language={language} />
-      <Footer />
+      <Footer language={language} />
     </div>
   );
 };

@@ -29,7 +29,7 @@ const CityTourPage = () => {
         </div>
       </div>
       <CityDetails language={language} />
-      <Footer />
+      <Footer language={language} />
     </div>
   );
 };
