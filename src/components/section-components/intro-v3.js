@@ -9,7 +9,8 @@ const IntroV3 = ({ language }) => {
       <div className="container">
         <div className="section-title text-lg-center text-left">
           <h2 className="title">
-            <span>We Are</span> Vision Africa
+            <span>{language === "ch" ? "我们" : "We Are"}</span>{" "}
+            {language === "ch" ? "奇光旅行" : "Vision Africa"}
           </h2>
         </div>
         <div className="row">
@@ -18,7 +19,9 @@ const IntroV3 = ({ language }) => {
               <div className="thumb">
                 <img src={publicUrl + "assets/img/icons/9.png"} alt="img" />
               </div>
-              <h4 className="intro-title">Who we are</h4>
+              <h4 className="intro-title">
+                {language == "ch" ? "团队" : "Who we are"}
+              </h4>
               {language === "ch" ? (
                 <p>
                   我们是一家总部位于南非约翰内斯堡的入境旅行社。我们的联合创始人在南非共和国拥有超过20年的成功运营
@@ -43,7 +46,9 @@ const IntroV3 = ({ language }) => {
               <div className="thumb">
                 <img src={publicUrl + "assets/img/icons/12.png"} alt="img" />
               </div>
-              <h4 className="intro-title">Mission</h4>
+              <h4 className="intro-title">
+                {language === "ch" ? "目标" : "Mission"}
+              </h4>
               {language === "ch" ? (
                 <p>
                   我们的使命是为客户提供终生难忘的定制旅行体验。无论是极尽奢华还是经济实
@@ -64,7 +69,11 @@ const IntroV3 = ({ language }) => {
               <div className="thumb">
                 <img src={publicUrl + "assets/img/icons/10.png"} alt="img" />
               </div>
-              <h4 className="intro-title">Great Experience / Destination</h4>
+              <h4 className="intro-title">
+                {language === "ch"
+                  ? "精彩定制 / 内容策划"
+                  : "Great Experience / Destination"}
+              </h4>
               {language === "ch" ? (
                 <p>
                   奇光旅行汇集了旅行的每一个元素，让您花更少时间寻找，花更多的时间追梦。

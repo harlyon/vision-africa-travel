@@ -20,7 +20,9 @@ const SafariTourPage = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumb-inner">
-                <h1 className="page-title">Safari Tour</h1>
+                <h1 className="page-title">
+                  {language === "ch" ? "游猎" : "Safari Tour"}
+                </h1>
                 <ul className="page-list"></ul>
               </div>
             </div>

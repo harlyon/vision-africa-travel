@@ -24,8 +24,14 @@ const Footer_v2 = ({ language }) => {
         <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-7">
             <div className="section-title mb-4 text-center">
-              <h2 className="title">Newsletter</h2>
-              <p>Sign up to receive the best offers</p>
+              <h2 className="title">
+                {language === "ch" ? "精彩内容" : "Newsletter"}
+              </h2>
+              <p>
+                {language === "ch"
+                  ? "订阅获取更多内容"
+                  : "Sign up to receive the best offers"}
+              </p>
             </div>
             <div className="widget input-group newslatter-wrap">
               <div className="input-group-prepend">
@@ -41,7 +47,7 @@ const Footer_v2 = ({ language }) => {
               />
               <div className="input-group-append">
                 <button className="btn btn-yellow" type="button">
-                  Subscribe
+                  {language === "ch" ? "订阅" : "Subscribe"}
                 </button>
               </div>
             </div>
@@ -98,7 +104,9 @@ const Footer_v2 = ({ language }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/destination-list">Vision of Difference</Link>
+                  <Link to="/destination-list">
+                    {language === "ch" ? "奇光视野" : "Vision of Difference"}
+                  </Link>
                 </li>
                 <li>
                   <Link to="/contact">

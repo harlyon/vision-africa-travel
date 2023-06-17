@@ -12,7 +12,9 @@ const AboutPage = () => {
   return (
     <div>
       <Navbar language={language} changeLanguage={changeLanguage} />
-      <PageHeader headertitle="About Vision Africa" />
+      <PageHeader
+        headertitle={language == "ch" ? "关于奇光旅行" : "About Vision Africa"}
+      />
       <Intro language={language} />
       <About language={language} />
       <Footer language={language} />

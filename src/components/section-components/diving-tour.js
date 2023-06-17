@@ -20,7 +20,9 @@ const DivingTourPage = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumb-inner">
-                <h1 className="page-title">Diving Tour</h1>
+                <h1 className="page-title">
+                  {language === "ch" ? "潜水" : "Diving Tour"}
+                </h1>
                 <ul className="page-list"></ul>
               </div>
             </div>

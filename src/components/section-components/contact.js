@@ -11,9 +11,11 @@ const Contact = ({ language }) => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="section-title text-lg-center text-left">
-                <h2 className="title">Get In Touch!</h2>
+                <h2 className="title">
+                  {language === "ch" ? "取得联系!" : "Get In Touch!"}
+                </h2>
                 {language === "ch" ? (
-                  <p>如需幫助或其他信息，請隨時聯繫我們</p>
+                  <p>如需帮助或其他信息，请随时联系我们</p>
                 ) : (
                   <p>
                     Feel Free to Contact us For Help or Additional Information
@@ -36,25 +38,33 @@ const Contact = ({ language }) => {
                 <div className="row">
                   <div className="col-md-6">
                     <label className="single-input-wrap style-two">
-                      <span className="single-input-title">Name</span>
+                      <span className="single-input-title">
+                        {language === "ch" ? "姓名" : "Name"}
+                      </span>
                       <input type="text" name="name" />
                     </label>
                   </div>
                   <div className="col-md-6">
                     <label className="single-input-wrap style-two">
-                      <span className="single-input-title">Number</span>
+                      <span className="single-input-title">
+                        {language === "ch" ? "电话" : "Number"}
+                      </span>
                       <input type="text" name="number" />
                     </label>
                   </div>
                   <div className="col-lg-12">
                     <label className="single-input-wrap style-two">
-                      <span className="single-input-title">Email</span>
+                      <span className="single-input-title">
+                        {language === "ch" ? "邮箱 " : "Email"}
+                      </span>
                       <input type="text" name="email" />
                     </label>
                   </div>
                   <div className="col-lg-12">
                     <label className="single-input-wrap style-two">
-                      <span className="single-input-title">Message</span>
+                      <span className="single-input-title">
+                        {language === "ch" ? " 信息" : "Message"}
+                      </span>
                       <textarea defaultValue={""} name="message" />
                     </label>
                   </div>
@@ -62,7 +72,7 @@ const Contact = ({ language }) => {
                     <input
                       type="submit"
                       className="btn btn-yellow"
-                      value="Send Message"
+                      value={language === "ch" ? "发送" : "Send Message"}
                     />
                   </div>
                 </div>
