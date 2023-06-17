@@ -2,11 +2,13 @@ import React from "react";
 import Navbar from "../global-components/navbar";
 import SafariDetails from "./safari-details";
 import Footer from "../global-components/footer-v2";
+import useLanguage from "../../hooks/useLanguage";
 
 const SafariTourPage = () => {
+  const [language, changeLanguage] = useLanguage();
   return (
     <div>
-      <Navbar />
+      <Navbar language={language} changeLanguage={changeLanguage} />
       <div
         className="breadcrumb-area jarallax"
         style={{
@@ -25,8 +27,8 @@ const SafariTourPage = () => {
           </div>
         </div>
       </div>
-      <SafariDetails />
-      <Footer />
+      <SafariDetails language={language} />
+      <Footer language={language} />
     </div>
   );
 };

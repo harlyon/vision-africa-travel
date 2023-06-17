@@ -1,9 +1,6 @@
 import React from "react";
 
-const GolfDetails = () => {
-  let publicUrl = process.env.PUBLIC_URL + "/";
-  let imagealt = "image";
-
+const GolfDetails = ({ language }) => {
   return (
     <div>
       <div className="destinations-details-page mg-top--70">
@@ -99,19 +96,32 @@ const GolfDetails = () => {
               <h3>City Tour</h3>
             </div>
             <div className="col-lg-6">
-              <p>
-                South Africa is a ‘Rainbow Nation’ that has so much to offer:
-                from historic sights of political importance, traditional ties
-                or cultural connections, to museums, art galleries, skyscrapers
-                and African craft markets.
-              </p>
+              {language === "ch" ? (
+                <p>
+                  南非是一个“彩虹国度”，拥有众多的景点：从具有历史意义的政治地标、传统文化，到博物馆、艺术馆、摩天大楼和非洲工艺市场
+                </p>
+              ) : (
+                <p>
+                  South Africa is a ‘Rainbow Nation’ that has so much to offer:
+                  from historic sights of political importance, traditional ties
+                  or cultural connections, to museums, art galleries,
+                  skyscrapers and African craft markets.
+                </p>
+              )}
             </div>
             <div className="col-lg-6">
-              <p>
-                Whether you want to discover South Africa’s traditional roots,
-                diverse cultures or explore the lively spirit of modern city and
-                surroundings, Vision Africa is ready to take you everywhere.
-              </p>
+              {language === "ch" ? (
+                <p>
+                  无论您想要探索南非的传统根源、多元文化还是探索现代城市及其周边的活力精神，奇光旅行都随时准备带您前往各地
+                </p>
+              ) : (
+                <p>
+                  Whether you want to discover South Africa’s traditional roots,
+                  diverse cultures or explore the lively spirit of modern city
+                  and surroundings, Vision Africa is ready to take you
+                  everywhere.
+                </p>
+              )}
             </div>
           </div>
         </div>

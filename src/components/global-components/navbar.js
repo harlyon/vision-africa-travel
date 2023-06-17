@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Navbar = ({ language, changeLanguage }) => {
   let publicUrl = process.env.PUBLIC_URL + "/";
   let imgattr = "logo";
-  let anchor = "#";
 
   return (
     <nav
@@ -56,7 +55,7 @@ const Navbar = ({ language, changeLanguage }) => {
                     onChange={changeLanguage}
                   >
                     <option value="en">English</option>
-                    <option value="ch">Chinese</option>
+                    <option value="ch">中文</option>
                   </select>
                 </div>
               </li>
@@ -148,7 +147,7 @@ const Navbar = ({ language, changeLanguage }) => {
                   onChange={changeLanguage}
                 >
                   <option value="en">English</option>
-                  <option value="ch">Chinese / 中文</option>
+                  <option value="ch">中文</option>
                 </select>
               </div>
             </li>

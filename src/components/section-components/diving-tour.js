@@ -2,12 +2,14 @@ import React from "react";
 import Navbar from "../global-components/navbar";
 import DivingDetails from "./diving-details";
 import Footer from "../global-components/footer-v2";
+import useLanguage from "../../hooks/useLanguage";
 
 const DivingTourPage = () => {
+  const [language, changeLanguage] = useLanguage();
   let publicUrl = process.env.PUBLIC_URL + "/";
   return (
     <div>
-      <Navbar />
+      <Navbar language={language} changeLanguage={changeLanguage} />
       <div
         className="breadcrumb-area jarallax"
         style={{
@@ -25,8 +27,8 @@ const DivingTourPage = () => {
           </div>
         </div>
       </div>
-      <DivingDetails />
-      <Footer />
+      <DivingDetails language={language} />
+      <Footer language={language} />
     </div>
   );
 };

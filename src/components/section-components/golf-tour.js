@@ -2,11 +2,13 @@ import React from "react";
 import Navbar from "../global-components/navbar";
 import GolfDetails from "./golf-details";
 import Footer from "../global-components/footer-v2";
+import useLanguage from "../../hooks/useLanguage";
 
 const GolfTourPage = () => {
+  const [language, changeLanguage] = useLanguage();
   return (
     <div>
-      <Navbar />
+      <Navbar language={language} changeLanguage={changeLanguage} />
       <div
         className="breadcrumb-area jarallax"
         style={{
@@ -25,8 +27,8 @@ const GolfTourPage = () => {
           </div>
         </div>
       </div>
-      <GolfDetails />
-      <Footer />
+      <GolfDetails language={language} />
+      <Footer language={language} />
     </div>
   );
 };
