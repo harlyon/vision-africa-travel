@@ -11,9 +11,9 @@ const ContactPage = () => {
   return (
     <div>
       <Navbar language={language} changeLanguage={changeLanguage} />
-      <PageHeader headertitle="Contact Us" />
+      <PageHeader headertitle={language === "ch" ? "联系我们" : "Contact"} />
       <Contact language={language} />
-      <Footer />
+      <Footer language={language} changeLanguage={changeLanguage} />
     </div>
   );
 };

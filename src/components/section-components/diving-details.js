@@ -68,7 +68,7 @@ const DivingDetails = ({ language }) => {
           {/* destinations-details-main-slider End */}
           <div className="row destinations-details-location-name">
             <div className="col-lg-12">
-              <h3>Diving Tour</h3>
+              <h3>{language === "ch" ? "潜水" : "Diving Tour"}</h3>
             </div>
             <div className="col-lg-6">
               {language === "ch" ? (

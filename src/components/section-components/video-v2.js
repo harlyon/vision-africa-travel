@@ -10,7 +10,9 @@ const VideoV2 = ({ language }) => {
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-10 text-center">
             <div className="section-title text-center viaje-go-top">
-              <h2 className="title">What makes us special</h2>
+              <h2 className="title">
+                {language === "ch" ? "与众不同的奇光" : "What makes us special"}
+              </h2>
               {language === "ch" ? (
                 <p>
                   我们是南非定制旅游服务的领跑者。凭借超过 20
@@ -30,7 +32,7 @@ const VideoV2 = ({ language }) => {
               )}
               <Link className="btn btn-yellow" to="/about">
                 <span>
-                  Read More
+                  {language === "ch" ? "更多" : "Read More"}
                   <i className="la la-arrow-right" />
                 </span>
               </Link>

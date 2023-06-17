@@ -10,7 +10,9 @@ const About = ({ language }) => {
           <div className="col-xl-5 col-lg-6 align-self-center">
             <div className="section-title mb-lg-0 mb-4 text-center text-lg-left">
               <h2 className="title">
-                Your Next Adventure <br /> Is a Click Away
+                {language === "ch"
+                  ? "离您的下一个精彩旅程 \n 仅一步之遥"
+                  : "Your Next Adventure \n Is a Click Away"}
               </h2>
               {language === "ch" ? (
                 <p>

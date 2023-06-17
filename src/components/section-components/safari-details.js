@@ -102,7 +102,7 @@ const SafariDetails = ({ language }) => {
           {/* destinations-details-main-slider End */}
           <div className="row destinations-details-location-name">
             <div className="col-lg-12">
-              <h3>Safari Tour</h3>
+              <h3>{language === "ch" ? "游猎" : "Safari Tour"}</h3>
             </div>
             <div className="col-lg-6">
               {language === "ch" ? (

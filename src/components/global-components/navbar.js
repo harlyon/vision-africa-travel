@@ -95,7 +95,7 @@ const Navbar = ({ language, changeLanguage }) => {
             </li>
             <li>
               <Link style={{ color: "#333" }} to="/vision">
-                Vision of Difference
+                {language === "ch" ? "奇光视野" : "Vision of Difference"}
               </Link>
             </li>
             <li style={{ color: "#333" }} className="menu-item-has-children">
@@ -104,19 +104,29 @@ const Navbar = ({ language, changeLanguage }) => {
               </a>
               <ul className="sub-menu">
                 <li>
-                  <Link to="/city-tour">City Tour</Link>
+                  <Link to="/city-tour">
+                    {language === "ch" ? "城市观光" : "City Tour"}
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/safari-tour">Safari</Link>
+                  <Link to="/safari-tour">
+                    {language === "ch" ? "游猎" : "Safari"}
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/fishing-tour">Fishing</Link>
+                  <Link to="/fishing-tour">
+                    {language === "ch" ? "海钓" : "Fishing"}
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/golf-tour">Golfing</Link>
+                  <Link to="/golf-tour">
+                    {language === "ch" ? "高尔夫" : "Golfing"}
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/diving-tour">Diving</Link>
+                  <Link to="/diving-tour">
+                    {language === "ch" ? "潜水" : "Diving"}
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -136,7 +146,8 @@ const Navbar = ({ language, changeLanguage }) => {
           <ul>
             <li>
               <Link className="btn btn-yellow" to="/login">
-                VIP Access <i className="fa fa-paper-plane" />
+                {language === "ch" ? "VIP 入口" : "VIP Access"}{" "}
+                <i className="fa fa-paper-plane" />
               </Link>
             </li>
             <li style={{ color: "#333" }} className="tp-lang">

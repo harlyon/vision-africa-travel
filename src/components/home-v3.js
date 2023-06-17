@@ -12,7 +12,7 @@ const Home_V3 = () => {
   return (
     <div>
       <Navbar language={language} changeLanguage={changeLanguage} />
-      <Banner />
+      <Banner language={language} changeLanguage={changeLanguage} />
       <Video language={language} />
       <Footer language={language} changeLanguage={changeLanguage} />
       <CookieConsent
