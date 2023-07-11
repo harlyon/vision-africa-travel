@@ -10,6 +10,13 @@
     }
 }
 
+@media (min-width: 992px){
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    padding-left: 38px;
+    padding-right: 0px;
+}
+}
+
 @media only screen and (max-width: 1680px){
     .banner-slider .banner-slider-item .banner-inner .banner-cat {
         font-size: 16px;
@@ -1702,7 +1709,7 @@
         font-size: 24px;
     }
     .responsive-mobile-menu .navbar-toggler {
-        margin-top: 13px;
+        margin-top: 7px;
     }
     .newslatter-area-wrap {
         padding: 65px 0 70px 0;
