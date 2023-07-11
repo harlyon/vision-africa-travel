@@ -15,10 +15,10 @@ const Navbar = ({ language, changeLanguage }) => {
     >
       <div
         className="container nav-container"
-        style={{
-          paddingLeft: "38px",
-          paddingRight: "0px",
-        }}
+        // style={{
+        //   paddingLeft: "38px",
+        //   paddingRight: "0px",
+        // }}
       >
         <div className="responsive-mobile-menu">
           <div className="mobile-logo">
